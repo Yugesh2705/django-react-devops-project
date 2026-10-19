@@ -50,3 +50,8 @@ tmp_email/
 .direnv
 .envrc
 .tool-versions
+
+
+# PNPM Package Store Cache
+.pnpm-store/
+
