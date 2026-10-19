@@ -1,0 +1,13 @@
+[2026-10-18T10:04:08.809Z] Error: Error opening file "/app/backend/schema.yml" 
+ENOENT: no such file or directory, open '/app/backend/schema.yml'
+Stack:
+ResolverError: Error opening file "/app/backend/schema.yml" 
+ENOENT: no such file or directory, open '/app/backend/schema.yml'
+    at Object.handler (/app/node_modules/.pnpm/@hey-api+json-schema-ref-parser@1.2.0/node_modules/@hey-api/json-schema-ref-parser/dist/lib/resolvers/file.js:58:19)
+    at async $RefParser.parse (/app/node_modules/.pnpm/@hey-api+json-schema-ref-parser@1.2.0/node_modules/@hey-api/json-schema-ref-parser/dist/lib/index.js:225:17)
+    at async $RefParser.bundle (/app/node_modules/.pnpm/@hey-api+json-schema-ref-parser@1.2.0/node_modules/@hey-api/json-schema-ref-parser/dist/lib/index.js:132:9)
+    at async na (/app/node_modules/.pnpm/@hey-api+openapi-ts@0.85.2_typescript@5.9.3/node_modules/@hey-api/openapi-ts/dist/index.cjs:47:9979)
+    at async /app/node_modules/.pnpm/@hey-api+openapi-ts@0.85.2_typescript@5.9.3/node_modules/@hey-api/openapi-ts/dist/index.cjs:1352:6888
+    at async Promise.all (index 0)
+    at async LH (/app/node_modules/.pnpm/@hey-api+openapi-ts@0.85.2_typescript@5.9.3/node_modules/@hey-api/openapi-ts/dist/index.cjs:1352:6835)
+    at async start (/app/node_modules/.pnpm/@hey-api+openapi-ts@0.85.2_typescript@5.9.3/node_modules/@hey-api/openapi-ts/bin/index.cjs:132:21)
