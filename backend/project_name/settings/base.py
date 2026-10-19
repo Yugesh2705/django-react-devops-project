@@ -21,8 +21,11 @@ AUTH_USER_MODEL = "users.User"
 
 ALLOWED_HOSTS = []
 
-DATABASES = {
-    "default": config("DATABASE_URL", cast=db_url),
+# DATABASES = {
+    # "default": config("DATABASE_URL", cast=db_url),
+
+DATABASES["default"]["OPTIONS"] = {
+    "sslmode": "require",
 }
 
 INSTALLED_APPS = [
