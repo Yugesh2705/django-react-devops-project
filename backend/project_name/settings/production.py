@@ -97,7 +97,8 @@ LOGGING = {
         },
         "mail_admins": {
             "level": "ERROR",
-            "class": "django.utils.log.AdminEmailHandler",
+            # "class": "django.utils.log.AdminEmailHandler",
+            "class": "logging.NullHandler",
             "filters": ["require_debug_false"],
         },
         "console": {
